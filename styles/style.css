@@ -53,9 +53,18 @@ section::after {
     display: block;
     font-weight: bold;
     font-size: 1.1em;
-    color: #333;
+    color: darkgreen;
     text-decoration: none;
     padding: 5px 10px; 
+}
+
+.socials td a:visited {
+    color: palevioletred;
+}
+
+.socials td a:hover {
+    text-decoration: underline;
+    color: purple;
 }
 
 table {
@@ -63,6 +72,7 @@ table {
     border-collapse: collapse;
     width: 95%;
     border: 3px solid #333;
+    margin: 0 auto;
 }
 
 table th, table td {
