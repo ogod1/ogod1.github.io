@@ -72,6 +72,7 @@ table {
     border-collapse: collapse;
     width: 95%;
     border: 3px solid #333;
+    table-layout: fixed;
     margin: 0 auto;
 }
 
