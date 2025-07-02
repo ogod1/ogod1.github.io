@@ -23,9 +23,9 @@ section:first-of-type {
 }
 
 /* Text Section */
-.header-text {
+/* .header-text {
     overflow:hidden;
-}
+} */
 
 .header-text h1 {
     font-size: 2em;
