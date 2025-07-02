@@ -4,7 +4,7 @@ body {
     line-height: 1.6;
     margin: 0;
     padding: 0 20px;
-    background-color: #b9c7af;
+    background-color: #a5c291;
 }
 
 section {
@@ -44,7 +44,7 @@ table {
 
 table th, table td {
     padding: 10px;
-    border: 2 px solid #333;
+    border: 2px solid #333;
     text-align: center;
 }
 
