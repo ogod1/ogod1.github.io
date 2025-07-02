@@ -23,17 +23,17 @@ section {
     flex-wrap: wrap; /* makes it responsive on small screens */
 }
 
-/* Profile Image */
-.profile-img {
-    width: 150px;
-    height: auto;
-    border-radius: 8px;
+.header-block img {
+  float: left;
+  margin-right: 20px;
+  border-radius: 5px;
 }
 
 /* Text Section */
 .header-text {
     text-align: left;
     max-width: 400px;
+    overflow: hidden;
 }
 
 .header-text h1 {
@@ -45,7 +45,7 @@ section {
     font-size: 1.2em;
     color: #444;
     margin-top: 0;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
 }
 
 /* Social Links */
