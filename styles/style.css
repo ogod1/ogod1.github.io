@@ -15,54 +15,59 @@ section {
 
 /* Header Flexbox Layout */
 .header-block {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 30px 20px;
-  gap: 30px; /* space between image and text */
-  flex-wrap: wrap; /* makes it responsive on small screens */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 20px;
+    gap: 30px; /* space between image and text */
+    flex-wrap: wrap; /* makes it responsive on small screens */
 }
 
 /* Profile Image */
 .profile-img {
-  width: 150px;
-  height: auto;
-  border-radius: 8px;
+    width: 150px;
+    height: auto;
+    border-radius: 8px;
 }
 
 /* Text Section */
 .header-text {
-  text-align: left;
-  max-width: 400px;
+    text-align: left;
+    max-width: 400px;
 }
 
 .header-text h1 {
-  font-size: 2em;
-  margin-bottom: 5px;
+    font-size: 2em;
+    margin-bottom: 5px;
 }
 
 .header-text h2 {
-  font-size: 1.2em;
-  color: #444;
-  margin-top: 0;
-  margin-bottom: 10px;
+    font-size: 1.2em;
+    color: #444;
+    margin-top: 0;
+    margin-bottom: 10px;
 }
 
 /* Social Links */
 .social-links {
-  margin-top: 10px;
-  font-weight: bold;
-  font-size: 1em;
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 1em;
 }
 
 .social-links a {
-  color: darkgreen;
-  text-decoration: none;
-  margin: 0 8px;
+    color: darkgreen;
+    text-decoration: none;
+    margin: 0 8px;
 }
 
 .social-links a:hover {
-  color: purple;
+    text-decoration: underline;
+    color: purple;
+}
+
+.social-links a:visited {
+    color: darkgreen;
 }
 
 
