@@ -11,17 +11,12 @@ section {
     margin-bottom: 40px;
 }
 
+section:first-of-type {
+    margin-top: 40px;
+}
+
 /* Header Layout */
 
-/* Header Flexbox Layout */
-.header-block {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 30px 20px;
-    gap: 30px; /* space between image and text */
-    flex-wrap: wrap; /* makes it responsive on small screens */
-}
 
 .header-block img {
   float: left;
