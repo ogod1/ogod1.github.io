@@ -16,6 +16,7 @@ section {
 .name-and-major {
     text-align: center;
     padding:20px;
+    
 }
 .name-and-major img {
     display: block;
@@ -35,6 +36,31 @@ section::after {
 }
 
 /* Table Formatting */
+.socials {
+    width: 100%;
+    border-collapse: collapse;
+    margin:20px 0;
+    table-layout: fixed;
+}
+
+.socials, .socials td {
+    border:none; 
+    padding: 0;
+}
+
+.socials td a {
+    display: block;
+    font-weight: bold;
+    font-size: 1.1em;
+    color: #333;
+    text-decoration: none;
+    padding: 5px 10px; 
+}
+
+.socials td a:hover {
+    color: #d8febe
+}
+
 table {
     margin-left: 20px;
     border-collapse: collapse;
