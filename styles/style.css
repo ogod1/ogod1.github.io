@@ -4,6 +4,7 @@ body {
     line-height: 1.6;
     margin: 0;
     padding: 0 20px;
+    background-color: #b9c7af;
 }
 
 section {
@@ -38,12 +39,13 @@ table {
     margin-left: 20px;
     border-collapse: collapse;
     width: 95%;
+    border: 3px solid #333;
 }
 
 table th, table td {
     padding: 10px;
-    border: 1 px solid #ccc;
-    text-align: left;
+    border: 2 px solid #333;
+    text-align: center;
 }
 
 /* Lists Formatting */
@@ -58,4 +60,5 @@ h3 {
     margin-top: 40px;
     border-bottom: 1px solid #ccc;
     padding-bottom: 5px;
+    font-size: 1.5em;
 }
