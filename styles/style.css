@@ -110,8 +110,10 @@ section::after {
     margin-left: 20px;
 }
 
-.coursework li {
-    margin-bottom: 8px;
+.coursework th, .coursework td {
+    padding: 10px;
+    border: none;
+    text-align: left;
 }
 
 /* Tables - General */
