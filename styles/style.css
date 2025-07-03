@@ -98,7 +98,7 @@ section::after {
 }
 
 /* Social Links */
-.socials {
+/* .socials {
     width: 60%;
     border-collapse: collapse;
     margin: 0 auto;
@@ -127,7 +127,7 @@ section::after {
 
 .socials td a:visited {
     color: darkgreen;
-}
+} */
 
 /* Coursework */
 .coursework {
