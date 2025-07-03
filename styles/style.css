@@ -106,13 +106,12 @@ section::after {
     width: 60%;
     table-layout: fixed;
     margin: 0 auto;
-    margin-left: 20px;
 }
 
 .coursework th, .coursework td {
     padding: 10px;
     border: none;
-    text-align: center;
+    text-align: left;
 }
 
 /* Tables - General */
