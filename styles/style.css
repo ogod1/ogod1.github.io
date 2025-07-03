@@ -129,10 +129,24 @@ section::after {
     color: darkgreen;
 }
 
+/* Coursework */
+.coursework {
+    columns: 2;
+    column-gap: 40px;
+    list-style-position: inside;
+    padding: 0;
+    width: 60%;
+}
+
+.coursework li {
+    margin-bottom: 8px;
+}
+
+/* Tables - General */
 table {
     margin-left: 20px;
     border-collapse: collapse;
-    width: 95%;
+    width: 60%;
     border: 3px solid #333;
     table-layout: fixed;
     margin: 0 auto;
