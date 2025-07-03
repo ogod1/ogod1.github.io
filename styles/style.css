@@ -79,17 +79,22 @@ section:first-of-type {
 }
 
 
+/* About Me*/
+#about {
+    font-size: medium;
+    color: rgb(13, 61, 18);
+}
 
 section h1, section h2 {
     margin-top: 0;
 }
 
-/* Clearing the float*/
+/* Clearing the float
 section::after {
     content: "";
     display: table;
     clear: both;
-}
+} */
 
 /* Table Formatting */
 .socials {
