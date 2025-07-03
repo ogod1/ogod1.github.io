@@ -100,42 +100,8 @@ section::after {
     clear: both;
 }
 
-/* Social Links */
-/* .socials {
-    width: 60%;
-    border-collapse: collapse;
-    margin: 0 auto;
-    table-layout: fixed;
-}
-
-.socials td {
-    border:none; 
-    text-align: center;
-    padding: 10px 0;
-}
-
-.socials td a {
-    display: block;
-    font-weight: bold;
-    font-size: 1.1em;
-    color: darkgreen;
-    text-decoration: none;
-    padding: 5px 10px; 
-}
-
-.socials td a:hover {
-    text-decoration: underline;
-    color: purple;
-}
-
-.socials td a:visited {
-    color: darkgreen;
-} */
-
 /* Coursework */
 .coursework {
-    columns: 2;
-    column-gap: 40px;
     list-style-position: inside;
     padding: 0;
     width: 60%;
