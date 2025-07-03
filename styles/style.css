@@ -81,8 +81,9 @@ section:first-of-type {
 
 /* About Me*/
 #about {
-    font-size: medium;
+    font-size: 2em;
     color: rgb(13, 61, 18);
+    margin-top: 0;
 }
 
 section h1, section h2 {
