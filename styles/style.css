@@ -90,12 +90,12 @@ section h1, section h2 {
     margin-top: 0;
 }
 
-/* Clearing the float
+/* Clearing the float */
 section::after {
     content: "";
     display: table;
     clear: both;
-} */
+}
 
 /* Table Formatting */
 .socials {
