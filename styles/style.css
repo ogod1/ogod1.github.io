@@ -16,14 +16,24 @@ section:first-of-type {
 }
 
 /* Header Layout */
-#header img {
-  float: left;
-  margin-right: 20px;
-  border-radius: 5px;
+#header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.header-block {
+    display: flex;
+    align-items: center;
+    gap: 20px;
 }
 
 /* Text Section */
 .header-text {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
     text-align: left;
 }
 
