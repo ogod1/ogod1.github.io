@@ -109,7 +109,7 @@ section::after {
 }
 
 .coursework th, .coursework td {
-    padding: 10px;
+    padding: 0;
     border: none;
     text-align: left;
 }
@@ -125,9 +125,7 @@ table {
 }
 
 table th, table td {
-    padding: 10px;
     border: 2px solid #333;
-    text-align: center;
 }
 
 /* Lists Formatting */
