@@ -85,6 +85,7 @@ section:first-of-type {
     margin-top: 0;
     width: 70%;
     text-align: center;
+    justify-content: center;
     font-weight: bold;
 }
 
@@ -103,9 +104,10 @@ section::after {
 .coursework {
     text-align: left;
     padding: 0;
-    width: 60%;
+    width: 70%;
     table-layout: fixed;
     margin: 0 auto;
+    border: none;
 }
 
 .coursework th, .coursework td {
@@ -118,7 +120,7 @@ section::after {
 table {
     margin-left: 20px;
     border-collapse: collapse;
-    width: 60%;
+    width: 70%;
     border: 3px solid #333;
     table-layout: fixed;
     margin: 0 auto;
