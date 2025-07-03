@@ -125,16 +125,17 @@ section::after {
 
 /* Skills And Projects*/
 .skills-projects {
-  justify-content: center;
-  align-items: flex-start; 
-  gap: 50px; 
-  flex-wrap: wrap; 
-  margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; 
+    gap: 50px; 
+    flex-wrap: wrap; 
+    margin-top: 40px;
 }
 
 .skills,
 .projects {
-  width: 70%; 
+    width: 70%; 
 }
 
 /* Tables - General */
