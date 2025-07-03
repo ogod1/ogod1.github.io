@@ -131,9 +131,11 @@ table th, table td {
 }
 
 /* Lists Formatting */
-/* ul {
-    margin-left: 40px;
-} */
+.coursework ul {
+    margin-left: 0;
+    text-align: left;
+    padding: 0;
+}
 
 /* Section Headings Formatting */
 h3 {
