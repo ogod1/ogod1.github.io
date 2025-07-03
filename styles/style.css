@@ -17,15 +17,14 @@ section:first-of-type {
 
 /* Header Layout */
 #header img {
-  float: center;
+  float: left;
   margin-right: 20px;
   border-radius: 5px;
 }
 
 /* Text Section */
 .header-text {
-    overflow:hidden;
-    text-align: center;
+    text-align: left;
 }
 
 .header-text h1 {
