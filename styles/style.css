@@ -116,6 +116,15 @@ section::after {
     text-align: left;
 }
 
+.coursework ul {
+    margin-left: 0;
+    text-align: left;
+    padding: 0;
+}
+
+/* Skills */
+
+
 /* Tables - General */
 table {
     margin-left: 20px;
@@ -130,12 +139,6 @@ table th, table td {
     border: 2px solid #333;
 }
 
-/* Lists Formatting */
-.coursework ul {
-    margin-left: 0;
-    text-align: left;
-    padding: 0;
-}
 
 /* Section Headings Formatting */
 h3 {
