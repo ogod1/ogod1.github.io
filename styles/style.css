@@ -139,6 +139,11 @@ section::after {
     padding-top: 0;
 }
 
+#skills h3,
+#projects h3 {
+    margin-top: 0;
+}
+
 /* Tables - General */
 table {
     margin-left: 20px;
