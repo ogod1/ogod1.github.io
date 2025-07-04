@@ -129,13 +129,13 @@ section::after {
     justify-content: center;
     align-items: flex-start; 
     gap: 50px; 
-    flex-wrap: wrap; 
     margin-top: 40px;
+    width: 70%;
 }
 
 .skills,
 .projects {
-    width: 30%; 
+    margin-top: 0px;
 }
 
 /* Tables - General */
