@@ -132,8 +132,11 @@ section::after {
     margin-top: 0px;
 }
 
-#projects {
+#projects, 
+#skills {
     width: 50%;
+    margin-top: 0;
+    padding-top: 0;
 }
 
 /* Tables - General */
