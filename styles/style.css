@@ -129,8 +129,7 @@ section::after {
     justify-content: center;
     align-items: flex-start; 
     gap: 50px; 
-    margin-top: 40px;
-    width: 70%;
+    margin-top: 0px;
 }
 
 .skills,
